@@ -36,15 +36,15 @@ public:
 
 private:
 	
-	wxPoint StartPoint, EndPoint, currentMidPoint;
-	wxPoint bezierPoints[BEZIER_NUM_VERTEX];
+	/*wxPoint StartPoint, EndPoint, currentMidPoint;
+	wxPoint bezierPoints[BEZIER_NUM_VERTEX];*/
 
 	bool viewSupportLines = false;
 	bool viewBezierMidPoint = true;
 
-	wxPoint getMidPoint(wxPoint start, wxPoint end, float t);
+	//wxPoint getMidPoint(wxPoint start, wxPoint end, float t);
 
-	void  calculateBezierPoints();
+	//void  calculateBezierPoints();
 
 	DECLARE_EVENT_TABLE()
 
